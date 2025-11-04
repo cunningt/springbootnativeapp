@@ -6,7 +6,7 @@ A Spring Boot application compiled to a native executable using GraalVM Native I
 
 This project showcases:
 - Spring Boot 3.5.7 with native image support
-- Apache Camel 4.14.2 integration
+- Apache Camel and Camel Spring Boot 4.14.2 integration
 - Native executable generation with GraalVM
 
 ## Prerequisites
