@@ -11,9 +11,23 @@ This project showcases:
 
 ## Prerequisites
 
-- Java 21 or later
-- Maven 3.x
-- GraalVM (for native compilation)
+- **Java 21** or later
+- **Maven 3.x**
+- **GraalVM** (for native compilation)
+
+### Environment Setup
+
+Configure the required environment variables for GraalVM:
+
+```bash
+export GRAAL_21_HOME=/Library/Java/JavaVirtualMachines/graalvm-21.jdk/Contents/Home/
+export GRAAL_HOME=${GRAAL_21_HOME}
+export JAVA_HOME=${GRAAL_21_HOME}
+export PATH=$JAVA_HOME/bin:$PATH
+```
+
+**Note:** Adjust the `GRAAL_21_HOME` path to match your GraalVM installation location.
+
 
 ## Building the Application
 
