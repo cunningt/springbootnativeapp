@@ -1,0 +1,397 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/maven/org.apache.camel/camel-base-engine/pom.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/maven/org.apache.camel/camel-main/pom.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/resources/index.html\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/ch.qos.logback.classic.spi.Configurator\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.lang.System$LoggerFinder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.net.spi.URLStreamHandlerProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.nio.channels.spi.SelectorProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.sql.Driver\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.time.zone.ZoneRulesProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.util.spi.ResourceBundleControlProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/javax.xml.transform.TransformerFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.camel.spi.ContextServicePlugin\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.juli.logging.Log\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/TypeConverterLoader\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/UberTypeConverterLoader\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/cli-connector-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/component/bean\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/component/log\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/component/stream\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/component/timer\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/bean-component\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/bean-endpoint\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/bean-language\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/log-component\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/log-endpoint\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/org.apache.camel.language.bean.BeanLanguage\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/org.apache.camel.language.simple.SimpleLanguage\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/org.apache.camel.spi.RestConfiguration\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/simple-language\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/spring-event-component\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/spring-event-endpoint\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/stream-component\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/stream-endpoint\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/timer-component\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/configurer/timer-endpoint\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/debugger-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/dev-console/default-registry\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/exchange-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/headers-map-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/consumers-check\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/consumers-repository\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/context-check\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/default-registry\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/producers-check\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/producers-repository\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/registry-check\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/registry-repository\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/routes-check\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/health-check/routes-repository\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/internal-processor-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/language/bean\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/language/simple\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/lru-cache-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/management/ManagementStrategyFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/model-reifier-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/model/FilterDefinition\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/model/ToDefinition\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/model/TransformDefinition\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/processor-exchange-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/processor-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/properties-source-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/reactive-executor\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/resource-loader\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/resource-resolver/source\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/routes-loader\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/startup-step-recorder\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/thread-factory-listener\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/thread-pool-factory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/variable-repository/global\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org/apache/camel/variable-repository/route\\E"
+  }, {
+    "pattern":"\\QMETA-INF/spring.factories\\E"
+  }, {
+    "pattern":"\\QMETA-INF/spring.integration.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/spring/logback-pattern-rules\\E"
+  }, {
+    "pattern":"\\Qapplication-default.properties\\E"
+  }, {
+    "pattern":"\\Qapplication-default.xml\\E"
+  }, {
+    "pattern":"\\Qapplication-default.yaml\\E"
+  }, {
+    "pattern":"\\Qapplication-default.yml\\E"
+  }, {
+    "pattern":"\\Qapplication.properties\\E"
+  }, {
+    "pattern":"\\Qapplication.xml\\E"
+  }, {
+    "pattern":"\\Qapplication.yaml\\E"
+  }, {
+    "pattern":"\\Qapplication.yml\\E"
+  }, {
+    "pattern":"\\Qbanner.txt\\E"
+  }, {
+    "pattern":"\\Qcamel-groovy-compiled/\\E"
+  }, {
+    "pattern":"\\Qcamel-groovy/\\E"
+  }, {
+    "pattern":"\\Qcamel-rest/\\E"
+  }, {
+    "pattern":"\\Qcamel-template/\\E"
+  }, {
+    "pattern":"\\Qcamel/\\E"
+  }, {
+    "pattern":"\\Qconfig/application-default.properties\\E"
+  }, {
+    "pattern":"\\Qconfig/application-default.xml\\E"
+  }, {
+    "pattern":"\\Qconfig/application-default.yaml\\E"
+  }, {
+    "pattern":"\\Qconfig/application-default.yml\\E"
+  }, {
+    "pattern":"\\Qconfig/application.properties\\E"
+  }, {
+    "pattern":"\\Qconfig/application.xml\\E"
+  }, {
+    "pattern":"\\Qconfig/application.yaml\\E"
+  }, {
+    "pattern":"\\Qconfig/application.yml\\E"
+  }, {
+    "pattern":"\\Qjndi.properties\\E"
+  }, {
+    "pattern":"\\Qlogback-spring.groovy\\E"
+  }, {
+    "pattern":"\\Qlogback-spring.xml\\E"
+  }, {
+    "pattern":"\\Qlogback-test-spring.groovy\\E"
+  }, {
+    "pattern":"\\Qlogback-test-spring.xml\\E"
+  }, {
+    "pattern":"\\Qlogback-test.groovy\\E"
+  }, {
+    "pattern":"\\Qlogback-test.scmo\\E"
+  }, {
+    "pattern":"\\Qlogback-test.xml\\E"
+  }, {
+    "pattern":"\\Qlogback.groovy\\E"
+  }, {
+    "pattern":"\\Qlogback.scmo\\E"
+  }, {
+    "pattern":"\\Qlogback.xml\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/main/components.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/main/dataformats.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/main/languages.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/cli-connector-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/configurer/bean-language\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/configurer/org.apache.camel.language.bean.BeanLanguage\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/configurer/org.apache.camel.language.simple.SimpleLanguage\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/configurer/simple-language\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/debugger-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/dev-console/default-registry\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/exchange-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/headers-map-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/health-check/consumers-check\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/health-check/producers-check\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/health-check/registry-check\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/health-check/registry-repository\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/health-check/routes-check\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/management/ManagementStrategyFactory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/model-reifier-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/model/FilterDefinition\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/model/ToDefinition\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/model/TransformDefinition\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/processor-exchange-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/properties-source-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/reactive-executor\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/resource-loader\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/routes-loader\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/startup-step-recorder\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/thread-factory-listener\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/thread-pool-factory\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/variable-repository/global\\E"
+  }, {
+    "pattern":"\\Qorg/apache/camel/util/META-INF/services/org/apache/camel/variable-repository/route\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/RestrictedFilters.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/RestrictedListeners.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/core/RestrictedServlets.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/loader/JdbcLeakPrevention.class\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/util/CharsetMapperDefault.properties\\E"
+  }, {
+    "pattern":"\\Qorg/apache/catalina/util/ServerInfo.properties\\E"
+  }, {
+    "pattern":"\\Qpublic/index.html\\E"
+  }, {
+    "pattern":"\\Qresources/index.html\\E"
+  }, {
+    "pattern":"\\Qspring.properties\\E"
+  }, {
+    "pattern":"\\Qstatic/index.html\\E"
+  }, {
+    "pattern":"java.base:\\Qjdk/internal/icu/impl/data/icudt72b/nfc.nrm\\E"
+  }, {
+    "pattern":"jdk.jfr:\\Qjdk/jfr/internal/query/view.ini\\E"
+  }]},
+  "bundles":[{
+    "name":"jakarta.servlet.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.authenticator.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.connector.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.core.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.deploy.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.loader.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.mapper.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.mbeans.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.realm.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.security.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.session.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.startup.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.util.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.valves.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.catalina.webresources.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.coyote.http11.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.naming.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.buf.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.compat.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.descriptor.web.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.http.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.http.parser.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.modeler.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.net.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.scan.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.util.threads.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.websocket.LocalStrings",
+    "locales":[""]
+  }, {
+    "name":"org.apache.tomcat.websocket.server.LocalStrings",
+    "locales":[""]
+  }]
+}
