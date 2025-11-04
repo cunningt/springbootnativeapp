@@ -105,17 +105,6 @@
                     <goal>repackage</goal>
                 </goals>
             </execution>
-<!--
-            <execution>
-                <id>process-aot</id>
-                <goals>
-                    <goal>process-aot</goal>
-                </goals>
-                <configuration>
-                    <profiles>native</profiles>
-                </configuration>
-            </execution>
--->
         </executions>
       </plugin>
       <plugin>
