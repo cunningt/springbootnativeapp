@@ -132,12 +132,12 @@ This approach uses Paketo buildpacks to create a containerized native image with
 
 You can customize the build with various options for memory allocation, JVM version, and JMX settings. See the [Paketo Bellsoft Liberica Buildpack documentation](https://github.com/paketo-buildpacks/bellsoft-liberica) for more details.
 
-If using Podman, you may hit build errors around permissions which can be solved by setting the docker host in the spring-boot-maven-plugin configuration or recreating your podman machine.    See [#24405](https://github.com/containers/podman/issues/24405)) for details.
+If using Podman, you may hit build errors around permissions which can be solved by setting the docker host in the spring-boot-maven-plugin configuration or recreating your podman machine.    See [#24405](https://github.com/containers/podman/issues/24405) for details.
 
 **Important:** Building native images is memory-intensive. Ensure your Docker or Podman engine has sufficient memory allocated (recommended: 8GB or more).
 
 **Running the Container:**
 
 ```bash
-docker run -p 8080:8080 my-camel-springboot-app:1.0.0-SNAPSHOT
+docker run -p 8080:8080 --rm docker.io/library/my-camel-springboot-app:1.0.0-SNAPSHOT
 ```
