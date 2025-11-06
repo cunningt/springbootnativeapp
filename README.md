@@ -118,3 +118,12 @@ Hello World
 
 </details>
 
+### Step 4 : Build a native image
+
+In order to build a native image :
+
+`mvn -Pnative spring-boot:build-image`
+
+There are a number of options you can set to change the amount of memory used to build the image, the JVM version used, and JMX options.    See https://github.com/paketo-buildpacks/bellsoft-liberica for more details.
+
+Building native images seems quite memory intensive on the container engine that you use for building the image, so make sure to allocate enough memory to your Docker or Podman Engine.
