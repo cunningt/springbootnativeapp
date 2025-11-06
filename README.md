@@ -118,12 +118,24 @@ Hello World
 
 </details>
 
-### Step 4 : Build a native image
+### Step 4: Build a Container Native Image
 
-In order to build a native image :
+Build a native image as a container using Cloud Native Buildpacks:
 
-`mvn -Pnative spring-boot:build-image`
+```bash
+mvn -Pnative spring-boot:build-image
+```
 
-There are a number of options you can set to change the amount of memory used to build the image, the JVM version used, and JMX options.    See https://github.com/paketo-buildpacks/bellsoft-liberica for more details.
+This approach uses Paketo buildpacks to create a containerized native image without requiring a local GraalVM installation.
 
-Building native images seems quite memory intensive on the container engine that you use for building the image, so make sure to allocate enough memory to your Docker or Podman Engine.
+**Configuration Options:**
+
+You can customize the build with various options for memory allocation, JVM version, and JMX settings. See the [Paketo Bellsoft Liberica Buildpack documentation](https://github.com/paketo-buildpacks/bellsoft-liberica) for more details.
+
+**Important:** Building native images is memory-intensive. Ensure your Docker or Podman engine has sufficient memory allocated (recommended: 8GB or more).
+
+**Running the Container:**
+
+```bash
+docker run -p 8080:8080 my-camel-springboot-app:1.0.0-SNAPSHOT
+```
